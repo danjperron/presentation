@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-#exemple d'utiliser un bluetooth serial  avec rfcom
+# Comment utiliser un bluetooth serial  avec rfcom
 #
-#  utilser bluetoothctl pour fair un pair avec le bluetooth
+#  utiliser bluetoothctl pour faire un pair avec le bluetooth
 #
 #  sudo bluetoothctl
 #  scan on            -> ceci va lister tout les bluetooths visibles
@@ -17,5 +17,5 @@
 
 /usr/bin/rfcomm bind /dev/rfcomm1 00:12:06:20:94:53 1
 
-#maintenant  le /dev/rfcomm1 devrait exister pour le bluetooth 
-#PS ne pas oublier d'utiliser le bon MAC
+#Le /dev/rfcomm1 devrait exister pour le bluetooth 
+#PS ne pas oublier d'utiliser le bon MAC address.
